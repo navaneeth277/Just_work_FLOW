@@ -1,0 +1,12 @@
+name: Hello
+on: push
+
+jobs:
+  testing:
+    name: Testing Node.js setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: emo
+        run: npm init -y
+      - name: install express
+        run: npm install express
