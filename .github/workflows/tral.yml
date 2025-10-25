@@ -6,3 +6,5 @@ jobs :
         steps :
             - name : Greet the user
               run : echo "Hello, Navaneeth! Welcome to the GitHub Actions workflow."
+            - name: Setup Node.js
+              run : node -v
