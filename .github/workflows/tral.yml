@@ -1,0 +1,8 @@
+name : Navaneeth
+on : push
+jobs :
+    greet:
+        runs-on : ubuntu-latest
+        steps :
+            - name : Greet the user
+              run : echo "Hello, Navaneeth! Welcome to the GitHub Actions workflow."
