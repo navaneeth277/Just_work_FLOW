@@ -10,5 +10,5 @@ jobs:
         run: npm init -y
       - name: install express
         run: npm install express
-      - name: cd testing
-        run: cd app
+      - name: change directory
+        run: ls
