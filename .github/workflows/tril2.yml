@@ -11,7 +11,7 @@ jobs:
       - name: install express
         run: npm install express
       - name: change director
-        run: 
+        run: |
           node --version
           docker --version
           aws --version
